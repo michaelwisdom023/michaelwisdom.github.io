@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Portfolio Website</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/54a70466e4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header">
+      <div class="container">
+         <nav>
+            <ul>
+               <li><a href="#header">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#service">Services</a></li>
+               <li><a href="#portfolio">Portfolio</a></li>
+               <li><a href="#contact">Contact</a></li>
+            </ul>
+         </nav> 
+         <img src="image/meimg.png" class="logo">
+         <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span>Wisdom</span> <br> from Nigeria</h1>
+         </div>
+      </div>
+   </div>
+   <!------------------about-------------------->
+   <div id="about">
+      <div class="container">
+         <div class="row">
+            <div class="about-col-1">
+               <img src="image/grad.jpg">
+            </div>
+            <div class="about-col-2">
+               <h1 class="sub-title">About Me</h1>
+               <p>My name is Wisdom, I am 19 years old. I am from Abia State.
+                  I was born and brought up in Abuja,<br> I finished my secondary education
+                  at Redeemers International Secondary School in Port-Harcourt, <br> River State. I studied Programming and 
+                  Web-Development on an intermediate level in Zion Computer College, Abuja.
+               </p>
+               <div class="tab-titles">
+                  <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                  <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                  <p class="tab-links" onclick="opentab('education')">Education</p>
+               </div>
+               <div class="tab-contents active-tab" id="skills">
+                  <ul>
+                     <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                     <li><span>Web Development</span><br>Website Development</li>
+                     <li><span>App Development</span><br>Building Android/IOS apps</li>
+                  </ul>
+               </div>
+               <div class="tab-contents" id="experience">
+                  <ul>
+                     <li><span>2019</span><br> UI/UX Design Training</li>
+                     <li><span>2021</span><br>HTML and CSS Application Training</li>
+                     <li><span>2022</span><br>Python Training</li>
+                  </ul>
+               </div>
+               <div class="tab-contents" id="education">
+                  <ul>
+                     <li><span>2018</span><br>University of Nigeria, Nsukka</li>
+                     <li><span>2020</span><br>University of Port-Harcourt</li>
+                     <li><span>2023</span><br>Zion Computer College</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <!---------------service------------------>
+   <div id="service">
+      <div class="container">
+         <h1 class="sub-title">My Services</h1>
+         <div class="service-list">
+            <div>
+               <i class="fa-solid fa-code"></i>
+               <h2>Web Design</h2>
+               <p>These are Web-Designs and Application can be used to connect to people all over the world that can render different services. It is also used to source information and entertainment.</p>
+               <a href="#">Learn more</a>
+            </div>
+            <div>
+               <i class="fa-solid fa-crop"></i>
+               <h2>UI/UX Design</h2>
+               <p>These are Web-Designs and Application can be used to connect to people all over the world that can render different services. It is also used to source information and entertainment.</p>
+               <a href="#">Learn more</a>
+            </div>
+            <div>
+               <i class="fa-brands fa-apple"></i>
+               <h2>App Design</h2>
+               <p>These are Web-Designs and Application can be used to connect to people all over the world that can render different services. It is also used to source information and entertainment.</p>
+               <a href="#">Learn more</a>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!----------------------work------------------------>
+   <div id="portfolio">
+      <div class="container">
+         <h1 class="sub-title">My Work</h1>
+         <div class="work-list">
+            <div class="work">
+               <img src="image/17109567.jpg">
+               <div class="layer">
+                  <h3>Social Media App</h3>
+                  <p>This app connects you to many <br> interesting people around the world. <br> Download it from play store.</p>
+                  <a href="#">Download</a>
+               </div>
+            </div>
+            <div class="work">
+               <img src="image/android-mobile-mobile-phone-screen-saver-1.jpg">
+               <div class="layer">
+                  <h3>Online Shopping App</h3>
+                  <p>This app connects you to many <br> quality marketers around the world. <br> Download it from play store.</p>
+                  <a href="#">Download</a>
+               </div>
+            </div>
+            <div class="work">
+               <img src="image/samsung-galaxy-z-fold-4-home-screen-closed.jpg">
+               <div class="layer">
+                  <h3>Music App</h3>
+                  <p>This app connects you to many <br> talented artists around the world. <br> Download it from play store.</p>
+                  <a href="#">Download</a>
+               </div>
+            </div>
+         </div>
+         <a href="#" class="btn">See More</a>
+      </div>
+   </div>
+         
+   <!--------------------contact------------------------>
+   <div id="contact">
+      <div class="container">
+         <div class="row">
+            <div class="contact-left">
+               <h1 class="sub-title">Contact Me</h1>
+               <p>michaelwisdom014@gmail.com</p>
+               <p>08117830876</p>
+               <div class="social-icons">
+                  <a href=""></a>
+                  <a href=""></a>
+                  <a href=""></a>
+               </div>
+               <a href="" class="btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+               <form>
+                  <input type="text" name="Name" placeholder="Your Name" required>
+                  <input type="email" name="email" placeholder="Your Email" required>
+                  <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                  <button type="submit" class="btn">Submit</button>
+               </form>
+            </div>
+         </div>
+      </div>
+      <div class="copyright">
+         <p>Copyright @ Wisdom Michael.</p>
+      </div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+   var tablinks = document.getElementsByClassName("tab-links");
+   var tabcontents = document.getElementsByClassName("tab-contents");
+
+   function opentab(tabname){
+      for(tablink of tablinks){
+         tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+         tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+   }
+</script>
+   
+</body>
+</html>
